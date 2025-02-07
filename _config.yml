@@ -19,7 +19,7 @@ title: 광부일지 # the main title
 tagline: 컴퓨터공학, 경제학, 수학 <br>공부노트 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  컴퓨터공학, 경제학, 수학을 공부하는 대학생입니다. 공부한 내용을 정리하는 노트로써 블로그를 운영합니다.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.

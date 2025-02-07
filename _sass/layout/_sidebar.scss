@@ -16,7 +16,10 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   height: 100%;
   overflow-y: auto;
   width: v.$sidebar-width;
-  background: var(--sidebar-bg);
+  // background: var(--sidebar-bg);
+  background-image: url('/assets/img/sidebar-bg-img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   border-right: 1px solid var(--sidebar-border-color);
 
   /* Hide scrollbar for IE, Edge and Firefox */
@@ -106,12 +109,14 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     margin-top: 1.25rem;
     margin-bottom: 0.5rem;
     width: fit-content;
-    color: var(--site-title-color);
+    // color: var(--site-title-color);
+    color: rgb(255, 255, 255, 0.5); 
   }
 
   .site-subtitle {
     font-size: 95%;
-    color: var(--site-subtitle-color);
+    // color: var(--site-subtitle-color);
+    color: rgb(255, 255, 255, 0.5);
     margin-top: 0.25rem;
     word-spacing: 1px;
     -webkit-user-select: none;
@@ -141,8 +146,13 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
         border-radius: 0.75rem;
         font-weight: 600;
 
+        color: rgb(255, 255, 255, 0.7);
+
         &:hover {
-          background-color: var(--sidebar-hover-bg);
+          // background-color: var(--sidebar-hover-bg);
+          background-color: rgb(255, 255, 255, 0.8);
+          color: black;
+          transition: 0.3s;
         }
 
         i {
@@ -159,8 +169,10 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
       &.active {
         .nav-link {
-          color: var(--sidebar-active-color);
-          background-color: var(--sidebar-hover-bg);
+          // color: var(--sidebar-active-color);
+          color: black;
+          // background-color: var(--sidebar-hover-bg);
+          background-color: rgb(255, 255, 255, 0.6);
 
           span {
             opacity: 1;
@@ -178,6 +190,13 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     padding-left: 2rem;
     padding-right: 1rem;
     margin-bottom: 1.5rem;
+
+    //-------------------------------------------
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    gap: 1rem; /* 아이콘 간격 균일하게 */
+    //-------------------------------------------
 
     @include bp.xxxl {
       padding-left: 2.75rem;
@@ -219,6 +238,9 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
           margin-right: v.$sb-btn-gap-lg;
         }
       }
+      //-------------------------------------------
+      // margin-right: 0; /* 기존 여백 제거 */
+      //-------------------------------------------
     }
 
     i {

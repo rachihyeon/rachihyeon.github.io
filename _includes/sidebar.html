@@ -49,6 +49,7 @@
       {% if site.data.contact.size > 0 %}
         <span class="icon-border"></span>
       {% endif %}
+
     {% endunless %}
 
     {% for entry in site.data.contact %}
@@ -90,6 +91,12 @@
           <i class="{{ entry.icon }}"></i>
         </a>
       {% endif %}
+<!-- ------------------------------------------- 
+      {% if site.data.contact.size > 0 %}
+        <span class="icon-border"></span>
+      {% endif %}
+ ------------------------------------------- -->
+
     {% endfor %}
   </div>
   <!-- .sidebar-bottom -->
