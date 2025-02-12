@@ -1,7 +1,7 @@
 ---
 title: 005-계량경제학 Gauss Markov Theorem
 date: 2025-02-12 17:06:00 +0900
-categories: [계량경제학, Gauss Markov Theorem, ]
+categories: [계량경제학, Gauss Markov Theorem]
 tags: [econometric, gauss markov theorem, classical assumption, blue]
 author: rachihyeon 
 description: Gauss Markov Theorem에 대해 설명합니다.
