@@ -16,7 +16,7 @@ mermaid: true
 
 ## 0. Prerequisite
 
-우리는 [이전 포스트](/_posts/2025-02-09-004-계량경제학-Regression)에서 회귀분석의 계수를 계산하는 방법을 알아보았습니다.
+우리는 [이전 포스트](/posts/004-계량경제학-회귀-분석-Regression)에서 회귀분석의 계수를 계산하는 방법을 알아보았습니다.
 
 그렇다면 $$\hat{\beta }=\left(X'X\right)^{-1}X'Y$$이 값이 좋은 값인지에 대해서 우선 증명해 볼 필요가 있습니다.<br>
 이에 대한 정리를 Gauss Markov Theorem라고 합니다.
