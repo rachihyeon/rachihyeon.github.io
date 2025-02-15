@@ -177,11 +177,11 @@ $$
 아카이케 정보기준은 
 
 $$
-AIC=2k-2ln(\hat{\mathcal{L}})
+AIC=2k-2\ln(\hat{\mathcal{L}})
 $$
 
 로 정의된다. (이때 $$k$$는 추정된 계수의 개수, $$\mathcal{L}$$은 likelihood funcion이다.)<br>
-$$ln(\hat{\mathcal{L}})$$는 모델의 적합도를 의미하니 $$k$$가 커질 때 $$ln(\hat{\mathcal{L}})$$가 충분히 커진다면 모델이 우수하다고 할 수 있다.<br>
+$$\ln(\hat{\mathcal{L}})$$는 모델의 적합도를 의미하니 $$k$$가 커질 때 $$\ln(\hat{\mathcal{L}})$$가 충분히 커진다면 모델이 우수하다고 할 수 있다.<br>
 즉, $$AIC$$값은 작을수록 좋다.
 
 <br>
@@ -191,7 +191,7 @@ $$ln(\hat{\mathcal{L}})$$는 모델의 적합도를 의미하니 $$k$$가 커질
 베이지안 정보기준은 
 
 $$
-BIC=ln(n)k-2ln(\hat{\mathcal{L}})
+BIC=\ln(n)k-2\ln(\hat{\mathcal{L}})
 $$
 
 로 정의된다. (이때 $$k$$는 추정된 계수의 개수, $$n$$은 데이터의 수, $$\mathcal{L}$$은 likelihood funcion이다.)<br>
