@@ -16,7 +16,7 @@ mermaid: true
 
 ## 0. Prerequisite
 
-우선 [**Regression**](/posts/004-계량경제학-Regression/)과, [**OLS estimator**](/005-계량경제학-Gauss-Markov-Theorem/)에 대해서 보고 오시는 것을 권장드립니다.
+우선 [**Regression**](/posts/004-계량경제학-Regression/)과, [**OLS estimator**](/posts/005-계량경제학-Gauss-Markov-Theorem/)에 대해서 보고 오시는 것을 권장드립니다.
 
 <br>
 <br>
