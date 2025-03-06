@@ -2,7 +2,7 @@
 title: 009-계량경제학 다중공선성(Multicollinearity)
 date: 2025-02-17 21:00:00 +0900
 categories: [계량경제학, Multicollinearity]
-tags: [econometric, multicollinearity, ]
+tags: [econometric, multicollinearity, correlogram, vif]
 author: rachihyeon 
 description: 회귀모델에서 다중공선성이 발생하면 어떤 문제가 발생하는지, 어떻게 판단하는지에 대해 다룹니다.
 # comments: 
@@ -52,7 +52,7 @@ ex)
 |$$X_3$$|0.2    |0.7    |1      |       |
 |$$X_4$$|-0.1   |-0.3   |-0.2   |1      |
 
->Rule of Thumb : $$\|C\| >0.7$$ 이면, 심각한 다중공선성이 존재한다고 본다.
+>Rule of Thumb : $$\vert C\vert >0.7$$ 이면, 심각한 다중공선성이 존재한다고 본다.
 {: .prompt-tip}
 
 <br>
