@@ -12,7 +12,16 @@ math: true
 mermaid: true
 ---
 
+><span style="font-size: 20px;">**!!필독!!** <br>
+>수식편집기의 버그로 수식 번호가 모두 매겨져 있는 경우가 있습니다. <br>
+>이 경우 **새로고침(F5)**하여 없앤 후 읽어주시길 바랍니다.</span>
+{: .prompt-danger}
+
+<br>
+
 이번에는 Gauss Markov Theorem에 대해서 다룹니다.
+
+[계량경제학 포스트 보러가기](/categories/계량경제학/)
 
 ## 0. Prerequisite
 
