@@ -102,7 +102,7 @@ $$\rho_k=\frac{Cov(X_t, X_{t+k})}{Cov(X_t, X_t)}$$
 
 그럼 이 영향이 오래 가는지 짧게 가는지도 다를테니 아래 그림을 한 번 봐보자. (x축은 시간, y축은 자기상관계수이다.)
 
-![자기상관 이미지](/assets/img/post_img/autocorrelogram.png)
+![자기상관 이미지](/assets/img/post_img/econometrics/autocorrelogram.png)
 
 위 이미지에서 <span style = "color : red;">빨간 선</span>이 있고 <span style = "color : skyblue;">파란 선</span>이 있다. <span style = "color : red;">빨간 선</span>은 이전 사건이 이후 시간이 어떻게 되든 그 영향이 그대로 전달되는 것이고, <span style = "color : skyblue;">파란 선</span>은 시간이 지남에 따라 그 영향이 적어지는 경우를 보여준다.
 
@@ -277,7 +277,7 @@ $$
 
 $$2(1-\hat{\rho})$$를 그래프로 그려보면
 
-![durbin-watson critical values](/assets/img/post_img/durbin-watson_critical_values.png)
+![durbin-watson critical values](/assets/img/post_img/econometrics/durbin-watson_critical_values.png)
 
 이고 d가 0에 가까우면 reject, 멀면 accept한다.<br>
 아까 위에서 이 검정법은 특이하다고 했는데, 왜냐하면 일반적으로 귀무가설이 A면 대립가설을 not A로 설정하는게 평범해보이는데 이 검정법은 그게 아니기 때문이다. 그로인해 기각역과 채택역이 아닌 결정 불가능 구간이 존재한다. 따라서 통계량이 이 구간 내에 있으면 다른 방법을 고려해야한다.
