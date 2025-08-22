@@ -2,7 +2,7 @@
 title: 016-양자 컴퓨팅 N/S Spin Experiment
 date: 2025-08-10 22:00:00 +0900
 categories: [양자컴퓨팅, N/S Spin Experiment]
-tags: [quantum computing, ]
+tags: [quantum computing, stern–gerlach experiment, polarization of light, postulate of quantum mechanics]
 author: rachihyeon 
 description: 양자 역학의 증거가 되는 실험 Stern–Gerlach experiment에 대해 다룹니다.
 # comments: 
