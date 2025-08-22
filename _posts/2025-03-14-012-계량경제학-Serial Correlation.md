@@ -2,7 +2,7 @@
 title: 012-계량경제학 자기상관성(Serial Correlation)
 date: 2025-03-29 01:00:00 +0900
 categories: [계량경제학, Serial Correlation]
-tags: [econometric, serial correlation, stationary, auto correlation, ar, breusch-godfrey test, durbin-watson test, hac]
+tags: [econometric, serial correlation, stationary, auto correlation, ar, breusch-godfrey test, durbin-watson test, hac, 자기상관성, 정상성, 브로이슈-갓프리 검정, 더빈-왓슨 검정, ]
 author: rachihyeon 
 description: 자기상관성이란 무엇이며, Classical assumption에서 자기상관성이 없다는 판단을 어떻게 해야 하는지를 다룹니다. 그리고 그에 앞서 시계열 데이터 분석을 간략하게 다룹니다.
 # comments: 

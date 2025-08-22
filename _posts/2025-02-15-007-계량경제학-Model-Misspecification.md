@@ -2,7 +2,7 @@
 title: 007-계량경제학 Model Misspecification
 date: 2025-02-15 15:10:00 +0900
 categories: [계량경제학, Model Misspecification]
-tags: [econometric, model misspecification, dgp, model selection, aic, bic]
+tags: [econometric, model misspecification, dgp, model selection, aic, bic, 조정된 R제곱]
 author: rachihyeon 
 description: 모델을 잘못 설계한 경우에 어떤 문제가 발생하며, 어떻게 해결해야하는지에 대한 방법론을 다룹니다.
 # comments: 
