@@ -243,9 +243,9 @@ $$
 떄문에 편관판 현상의 해석은 NS spin문제와 거의 비슷하게 해결할 수 있다.<br>
 편광판의 기울기에 따라 아래와 같이 정규 직교 기저를 설정할 수 있다.
 <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:8px;">
-  <img src="/assets/img/post_img/quantum_computing/x_axis_polarization_film.png" style="width:100%; height:180px; object-fit:contain; background:rgb(26, 26, 30); margin:0;">
-  <img src="/assets/img/post_img/quantum_computing/y_axis_polarization_film.png" style="width:100%; height:180px; object-fit:contain; background:rgb(26, 26, 30); margin:0;">
-  <img src="/assets/img/post_img/quantum_computing/theta_axis_polarization_film.png" style="width:100%; height:180px; object-fit:contain; background:rgb(26, 26, 30); margin:0;">
+  <img src="/assets/img/post_img/quantum_computing/x_axis_polarization_film.png" alt="x축 편광판" style="width:100%; height:180px; object-fit:contain; background:rgb(26, 26, 30); margin:0;">
+  <img src="/assets/img/post_img/quantum_computing/y_axis_polarization_film.png" alt="y축 편광판" style="width:100%; height:180px; object-fit:contain; background:rgb(26, 26, 30); margin:0;">
+  <img src="/assets/img/post_img/quantum_computing/theta_axis_polarization_film.png" alt="임의 기울기 편광판" style="width:100%; height:180px; object-fit:contain; background:rgb(26, 26, 30); margin:0;">
 </div>
 이하 실험 해석의 간소화를 위해 위 편광판을 순서대로 1번, 2번, 3번으로 부르겠다.
 
