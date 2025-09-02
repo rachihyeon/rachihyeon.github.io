@@ -12,11 +12,6 @@ math: true
 mermaid: true
 ---
 
-><span style="font-size: 20px;">**!!필독!!** <br>
->수식편집기의 버그로 수식 번호가 모두 매겨져 있는 경우가 있습니다. <br>
->이 경우 **새로고침(F5)**하여 없앤 후 읽어주시길 바랍니다.</span>
-{: .prompt-danger}
-
 <br>
 
 [계량경제학 포스트 보러가기](/categories/계량경제학/)
@@ -147,13 +142,13 @@ Var(\hat{\beta})&=\sigma^2(X'X)^{-1}=
     \begin{bmatrix}
     X_1 & X_2
     \end{bmatrix}
-\end{bmatrix}^{-1} \\
+\end{bmatrix}^{-1} \notag \\
 &=
 \sigma^2
 \begin{bmatrix}
     X_1'X_1 & X_1'X_2 \\
     X_2'X_1 & X_2'X_2 \\
-\end{bmatrix}^{-1}
+\end{bmatrix}^{-1} \notag 
 \end{align}
 $$
 
@@ -161,9 +156,9 @@ $$
 
 $$
 \begin{align}
-Var(\hat{\beta_1})&=\sigma^2\frac{X_2'X_2}{(X_1'X_1)(X_2'X_2)-(X_1'X_2)^2} \\
-&=\frac{\sigma^2}{(X_1'X_1)[1-\frac{(X_1'X_2)^2}{(X_1'X_1)(X_2'X_2)}]} \\
-&=\frac{\sigma^2}{(X_1'X_1)[1-CORR(X_1, X_2)^2]} \\
+Var(\hat{\beta_1})&=\sigma^2\frac{X_2'X_2}{(X_1'X_1)(X_2'X_2)-(X_1'X_2)^2} \notag \\
+&=\frac{\sigma^2}{(X_1'X_1)[1-\frac{(X_1'X_2)^2}{(X_1'X_1)(X_2'X_2)}]} \notag \\
+&=\frac{\sigma^2}{(X_1'X_1)[1-CORR(X_1, X_2)^2]} \notag \\
 \end{align}
 $$
 

@@ -12,11 +12,6 @@ math: true
 mermaid: true
 ---
 
-><span style="font-size: 20px;">**!!필독!!** <br>
->수식편집기의 버그로 수식 번호가 모두 매겨져 있는 경우가 있습니다. <br>
->이 경우 **새로고침(F5)**하여 없앤 후 읽어주시길 바랍니다.</span>
-{: .prompt-danger}
-
 <br>
 
 [계량경제학 포스트 보러가기](/categories/계량경제학/)
@@ -56,12 +51,12 @@ mermaid: true
 
 $$
 \begin{align}
-\hat{\beta}&=(X'X)^{-1}X'Y=(X'X)^{-1}X'(X\beta+\epsilon) \\
-&\beta+(X'X)^{-1}X'\epsilon \\
-& \\
-E[\hat{\beta}]&=E[\beta+(X'X)^{-1}X'\epsilon] \\
-&=\beta+(X'X)^{-1}X'\epsilon \\
-&=\beta
+\hat{\beta}&=(X'X)^{-1}X'Y=(X'X)^{-1}X'(X\beta+\epsilon) \notag \\
+&\beta+(X'X)^{-1}X'\epsilon \notag \\
+& \notag \\
+E[\hat{\beta}]&=E[\beta+(X'X)^{-1}X'\epsilon] \notag \\
+&=\beta+(X'X)^{-1}X'\epsilon \notag \\
+&=\beta \notag 
 \end{align}
 $$
 
@@ -75,11 +70,11 @@ $$
 
 $$
 \begin{align}
-Var(\hat{\beta})&=Var(\beta+(X'X)^{-1}X'\epsilon) \\
-&=Var((X'X)^{-1}X'\epsilon) \\
-&=(X'X)^{-1}X'E(\epsilon \epsilon')X(X'X)^{-1} \\
-&\ne (X'X)^{-1}X'\sigma^2 I X(X'X)^{-1} \\
-&=\sigma^2(X'X)^{-1} \\
+Var(\hat{\beta})&=Var(\beta+(X'X)^{-1}X'\epsilon) \notag \\
+&=Var((X'X)^{-1}X'\epsilon) \notag \\
+&=(X'X)^{-1}X'E(\epsilon \epsilon')X(X'X)^{-1} \notag \\
+&\ne (X'X)^{-1}X'\sigma^2 I X(X'X)^{-1} \notag \\
+&=\sigma^2(X'X)^{-1} \notag \\
 \end{align}
 $$
 
@@ -99,7 +94,7 @@ $$\hat{\sigma^2}(X'X)^{-1}$$을 사용한 어떠한 계산도 유효하지 않�
 
 $$
 \begin{align}
-&\sqrt{T}(\hat{\beta}-\beta^*)=(\frac{1}{T} \sum _{t=1}^{T} X_tX_t')^{-1}\frac{1}{\sqrt{T}}\sum _{t=1}^{T} X_t\epsilon_t \overset{d}{\to} Q^{-1}N(0, \sigma^2Q) \\
+&\sqrt{T}(\hat{\beta}-\beta^*)=(\frac{1}{T} \sum _{t=1}^{T} X_tX_t')^{-1}\frac{1}{\sqrt{T}}\sum _{t=1}^{T} X_t\epsilon_t \overset{d}{\to} Q^{-1}N(0, \sigma^2Q) \notag \\
 \end{align}
 $$
 
@@ -108,7 +103,7 @@ $$
 
 $$
 \begin{align}
-&\sqrt{T}(\hat{\beta}-\beta^*) \overset{d}{\to} Q^{-1}N(0, V)=N(0, Q^{-1}VQ^{-1}) \\
+&\sqrt{T}(\hat{\beta}-\beta^*) \overset{d}{\to} Q^{-1}N(0, V)=N(0, Q^{-1}VQ^{-1}) \notag \\
 \end{align}
 $$
 
@@ -122,7 +117,7 @@ $$
 
 $$
 \begin{align}
-\hat{\beta} \overset{d}{\to} N(\beta^*, (X'X)^{-1}\sum _{t=1}^{T} e_t^2 X_tX_t'(X'X)^{-1})
+\hat{\beta} \overset{d}{\to} N(\beta^*, (X'X)^{-1}\sum _{t=1}^{T} e_t^2 X_tX_t'(X'X)^{-1}) \notag 
 \end{align}
 $$
 
@@ -141,8 +136,8 @@ $$\sigma_t^2(X_t)=\alpha_0^*+\alpha_1^*X_t$$이고 이분산성 검정을 위한
 
 $$
 \begin{align}
-H_0 &: \mathrm{homoskedasticity} (\alpha_1^* = 0) \\
-H_1 &: \mathrm{heteroskedasticity} (\alpha_1^* \ne 0) \\
+H_0 &: \mathrm{homoskedasticity} (\alpha_1^* = 0) \notag \\
+H_1 &: \mathrm{heteroskedasticity} (\alpha_1^* \ne 0) \notag \\
 \end{align}
 $$
 
@@ -170,8 +165,8 @@ $$
 
 $$
 \begin{align}
-H_0 &: \mathrm{homoskedasticity} : (\alpha_1^* =\alpha_2^* =\dots=\alpha_k^* = 0) \\
-H_1 &: \mathrm{heteroskedasticity} : \sim H_0 \\
+H_0 &: \mathrm{homoskedasticity} : (\alpha_1^* =\alpha_2^* =\dots=\alpha_k^* = 0) \notag \\
+H_1 &: \mathrm{heteroskedasticity} : \sim H_0 \notag \\
 \end{align}
 $$
 

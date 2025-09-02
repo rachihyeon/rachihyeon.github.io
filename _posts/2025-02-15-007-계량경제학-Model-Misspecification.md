@@ -12,11 +12,6 @@ math: true
 mermaid: true
 ---
 
-><span style="font-size: 20px;">**!!필독!!** <br>
->수식편집기의 버그로 수식 번호가 모두 매겨져 있는 경우가 있습니다. <br>
->이 경우 **새로고침(F5)**하여 없앤 후 읽어주시길 바랍니다.</span>
-{: .prompt-danger}
-
 <br>
 
 한글로 *오지정*이라고 하는데 단어가 너무 와닿지 않아서 그냥 misspecification이라고 하겠습니다... 😅
@@ -53,8 +48,8 @@ mermaid: true
 
 $$
 \begin{align}
-&\mathrm{DGP} : Y_t=\beta_0^*+\beta_1^*x_{t1}+\beta_2^*x_{t2}+\epsilon_t \\
-&\mathrm{Regression} : Y_t=\hat{\beta_0}+\hat{\beta_1}x_{t1}+e_t \\
+&\mathrm{DGP} : Y_t=\beta_0^*+\beta_1^*x_{t1}+\beta_2^*x_{t2}+\epsilon_t \notag \\
+&\mathrm{Regression} : Y_t=\hat{\beta_0}+\hat{\beta_1}x_{t1}+e_t \notag \\
 \end{align}
 $$
 
@@ -71,11 +66,11 @@ $$\beta_1$$의 추정량을 계산해보겠다.
 
 $$
 \begin{align}
-\hat{\beta _1}&=\left(x_1'x_1\right)^{-1}x_1'Y\\ 
-&=\left(x_1'x_1\right)^{-1}x_1'\left(\beta _0^*+x_1\beta _1^*+x_2\beta _2^*+\epsilon _t\right) \\ 
-&=\left(x_1'x_1\right)^{-1}x_1'\beta _0^*+\beta _1^*+\left(x_1'x_1\right)^{-1}x_1'x_2\beta _2^*+\left(x_1'x_1\right)^{-1}x_1'\epsilon _t \\ 
-\\ 
-E\left[\hat{\beta _1}\right]&=\left(x_1'x_1\right)^{-1}x_1'\beta _0^*+\beta _1^*+\left(x_1'x_1\right)^{-1}x_1'x_2\beta _2^*\ne \beta _1^* \\
+\hat{\beta _1}&=\left(x_1'x_1\right)^{-1}x_1'Y \notag \\ 
+&=\left(x_1'x_1\right)^{-1}x_1'\left(\beta _0^*+x_1\beta _1^*+x_2\beta _2^*+\epsilon _t\right) \notag \\ 
+&=\left(x_1'x_1\right)^{-1}x_1'\beta _0^*+\beta _1^*+\left(x_1'x_1\right)^{-1}x_1'x_2\beta _2^*+\left(x_1'x_1\right)^{-1}x_1'\epsilon _t \notag \\ 
+\notag \\ 
+E\left[\hat{\beta _1}\right]&=\left(x_1'x_1\right)^{-1}x_1'\beta _0^*+\beta _1^*+\left(x_1'x_1\right)^{-1}x_1'x_2\beta _2^*\ne \beta _1^* \notag \\
 \end{align}
 $$
 
@@ -90,8 +85,8 @@ $$
 
 $$
 \begin{align}
-&\mathrm{DGP} : Y=\beta_0^*+\beta_1^*X_{1}+\beta_2^*X_{2}+\cdots +X_{i-1}\beta _{i-1}^*+X_{i+1}\beta _{i+1}^* +\cdots +X_{k}\beta _{k}^*+\epsilon_t \\
-&\mathrm{Regression} : Y=\hat{\beta _0}+X_1\hat{\beta _1}+X_2\hat{\beta _2}+\cdots +X_k\hat{\beta _k}+e_t \\
+&\mathrm{DGP} : Y=\beta_0^*+\beta_1^*X_{1}+\beta_2^*X_{2}+\cdots +X_{i-1}\beta _{i-1}^*+X_{i+1}\beta _{i+1}^* +\cdots +X_{k}\beta _{k}^*+\epsilon_t \notag \\
+&\mathrm{Regression} : Y=\hat{\beta _0}+X_1\hat{\beta _1}+X_2\hat{\beta _2}+\cdots +X_k\hat{\beta _k}+e_t \notag \\
 \end{align}
 $$
 
@@ -99,12 +94,12 @@ $$
 
 $$
 \begin{align}
-Y&=\hat{\beta _0}+X_1\hat{\beta _1}+X_2\hat{\beta _2}+\cdots +X_k\hat{\beta _k}+e_t\\ 
-&=\hat{\beta _0}+X_1\hat{\beta _1}+X_2\hat{\beta _2}+\cdots +X_k\hat{\beta _k}+\left(I-P_X\right)Y\\ 
-&\\
-&\mathrm{양변에} \ X_i'\left(I-P_{-i}\right)\mathrm{를\ 곱하면}\\ 
-X_i'\left(I-P_{-i}\right)Y&=\ X_i'\left(I-P_{-i}\right)\hat{\beta _0}+X_i'\left(I-P_{-i}\right)X_1\hat{\beta _1}+X_i'\left(I-P_{-i}\right)X_2\hat{\beta _2} \\
-&+\cdots+X_i'\left(I-P_{-i}\right)X_k\hat{\beta _k}+X_i'\left(I-P_{-i}\right)\left(I-P_X\right)Y\\ 
+Y&=\hat{\beta _0}+X_1\hat{\beta _1}+X_2\hat{\beta _2}+\cdots +X_k\hat{\beta _k}+e_t \notag \\ 
+&=\hat{\beta _0}+X_1\hat{\beta _1}+X_2\hat{\beta _2}+\cdots +X_k\hat{\beta _k}+\left(I-P_X\right)Y \notag \\ 
+&\notag \\
+&\mathrm{양변에} \ X_i'\left(I-P_{-i}\right)\mathrm{를\ 곱하면} \notag \\ 
+X_i'\left(I-P_{-i}\right)Y&=\ X_i'\left(I-P_{-i}\right)\hat{\beta _0}+X_i'\left(I-P_{-i}\right)X_1\hat{\beta _1}+X_i'\left(I-P_{-i}\right)X_2\hat{\beta _2} \notag \\
+&+\cdots+X_i'\left(I-P_{-i}\right)X_k\hat{\beta _k}+X_i'\left(I-P_{-i}\right)\left(I-P_X\right)Y\notag \\ 
 \end{align}
 $$
 
@@ -113,11 +108,11 @@ $$
 
 $$
 \begin{align}
-X_i'\left(I-P_{-i}\right)Y&=\ X_i'\left(I-P_{-i}\right)\hat{\beta _0}+X_i'\left(I-P_{-i}\right)X_1\hat{\beta _1}+X_i'\left(I-P_{-i}\right)X_2\hat{\beta _2} \\
-&+\cdots +X_i'\left(I-P_{-i}\right)X_k\hat{\beta _k}+X_i'\left(I-P_{-i}\right)\left(I-P_X\right)Y\\ 
-&=X_i'\left(I-P_{-i}\right)X_i\hat{\beta _i}+X_i'\left(I-P_X\right)Y\\ 
-&=X_i'\left(I-P_{-i}\right)X_i\hat{\beta _i}\\ 
-\Rightarrow \hat{\beta _i}&=\left(X_i'\left(I-P_{-i}\right)X_i\right)^{-1}X_i'\left(I-P_{-i}\right)Y
+X_i'\left(I-P_{-i}\right)Y&=\ X_i'\left(I-P_{-i}\right)\hat{\beta _0}+X_i'\left(I-P_{-i}\right)X_1\hat{\beta _1}+X_i'\left(I-P_{-i}\right)X_2\hat{\beta _2} \notag \\
+&+\cdots +X_i'\left(I-P_{-i}\right)X_k\hat{\beta _k}+X_i'\left(I-P_{-i}\right)\left(I-P_X\right)Y \notag \\ 
+&=X_i'\left(I-P_{-i}\right)X_i\hat{\beta _i}+X_i'\left(I-P_X\right)Y \notag \\ 
+&=X_i'\left(I-P_{-i}\right)X_i\hat{\beta _i} \notag \\ 
+\Rightarrow \hat{\beta _i}&=\left(X_i'\left(I-P_{-i}\right)X_i\right)^{-1}X_i'\left(I-P_{-i}\right)Y \notag 
 \end{align}
 $$
 
@@ -127,11 +122,11 @@ $$
 
 $$
 \begin{align}
-Var\left(\hat{\beta _i}\right)&=Var\left(\left(X_i'\left(I-P_{-i}\right)X_i\right)^{-1}X_i'\left(I-P_{-i}\right)Y\right)\\ 
-&=Var\left(\beta _i^*+\left(X_i'\left(I-P_{-i}\right)X_i\right)^{-1}X_i'\left(I-P_{-i}\right)\epsilon \right)\\ 
-&=\left(X_i'\left(I-P_{-i}\right)X_i\right)^{-1}X_i'\left(I-P_{-i}\right)Var\left(\epsilon \right)\left(I-P_{-i}\right)X_i\left(X_i'\left(I-P_{-i}\right)X_i\right)^{-1}\\ 
-&=Var\left(\epsilon \right)\left(X_i'\left(I-P_{-i}\right)X_i\right)^{-1}\\ 
-&=\sigma ^2\left(X_i'\left(I-P_{-i}\right)X_i\right)^{-1}
+Var\left(\hat{\beta _i}\right)&=Var\left(\left(X_i'\left(I-P_{-i}\right)X_i\right)^{-1}X_i'\left(I-P_{-i}\right)Y\right) \notag \\ 
+&=Var\left(\beta _i^*+\left(X_i'\left(I-P_{-i}\right)X_i\right)^{-1}X_i'\left(I-P_{-i}\right)\epsilon \right) \notag \\ 
+&=\left(X_i'\left(I-P_{-i}\right)X_i\right)^{-1}X_i'\left(I-P_{-i}\right)Var\left(\epsilon \right)\left(I-P_{-i}\right)X_i\left(X_i'\left(I-P_{-i}\right)X_i\right)^{-1} \notag \\ 
+&=Var\left(\epsilon \right)\left(X_i'\left(I-P_{-i}\right)X_i\right)^{-1} \notag \\ 
+&=\sigma ^2\left(X_i'\left(I-P_{-i}\right)X_i\right)^{-1} \notag 
 \end{align}
 $$
 
@@ -139,18 +134,16 @@ $$
 
 $$
 \begin{align}
-X_i'X_i-X_i'\left(I-P_{-i}\right)X_i&=X_i'P_{-i}X_i=X_i'X_i\left(X_i'X_i\right)^{-1}X_i'X_i\\ 
-&=X_i'X_i\succcurlyeq 0 \mathrm{이니}\\ 
-&\\
-\left(X_i'\left(I-P_{-i}\right)X_i\right)^{-1}&\succcurlyeq \left(X_i'X_i\right)^{-1} \mathrm{이다.}
+X_i'X_i-X_i'\left(I-P_{-i}\right)X_i&=X_i'P_{-i}X_i=X_i'X_i\left(X_i'X_i\right)^{-1}X_i'X_i \notag \\ 
+&=X_i'X_i\succcurlyeq 0 \mathrm{이니} \notag \\ 
+&\notag \\
+\left(X_i'\left(I-P_{-i}\right)X_i\right)^{-1}&\succcurlyeq \left(X_i'X_i\right)^{-1} \mathrm{이다.} \notag 
 \end{align}
 $$
 
 따라서 efficient를 만족하지 않는다.<br>
 하지만, $$i$$번째 변수가 그 밖의 모든 변수들로 생성된 부분공간에 대해 직교한다면 $$(I-P_{-i})X_i=X_i$$가 성립하여 $$X_i'X_i=X_i'\left(I-P_{-i}\right)X_i$$가 되긴 한다.<br>
 이러한 경우 efficiency loss는 발생하지 않는다. (물론 그에 따라 추정치가 0에 수렴하겠지만...)
-
-
 
 >문자의 아래첨자에 음수를 쓰는 방식은 경제학에서 자주 쓰이는데, 아래첨자의 수를 제외한 나머지 변수 모든 것을 의미한다. 위의 예를 들면 $$P_{-i}$$란 $$X_i$$를 제외한 나머지 변수로 만든 사영(projection) 선형변환(linear transfomer)을 의미한다.
 {: .prompt-info}

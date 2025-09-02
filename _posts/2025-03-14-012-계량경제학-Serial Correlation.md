@@ -12,11 +12,6 @@ math: true
 mermaid: true
 ---
 
-><span style="font-size: 20px;">**!!필독!!** <br>
->수식편집기의 버그로 수식 번호가 모두 매겨져 있는 경우가 있습니다. <br>
->이 경우 **새로고침(F5)**하여 없앤 후 읽어주시길 바랍니다.</span>
-{: .prompt-danger}
-
 <br>
 
 [계량경제학 포스트 보러가기](/categories/계량경제학/)
@@ -137,10 +132,10 @@ $$E(Z_t)=E(\rho^*Z_{t-1}+\eta_t)=\rho^*E(Z_{t-1})+E(\eta_t)=\rho^*E(Z_{t-1})$$
 2. 분산<br>
 $$
 \begin{align}
-Var(Z_t)&=Var(\rho^*Z_{t-1}+\eta_t) \\
-&=\rho^{*2}Var(Z_{t-1})+Var(\eta_t)+2cov(\rho^*Z_{t-1}, \eta_t) \\
-&=\rho^{*2}Var(Z_{t-1})+\sigma_{\eta} ^2 \\
-\Rightarrow Var(Z_t)&=\frac{\sigma_{\eta} ^2}{1-\rho^{*2}}=\sigma_{z} ^2
+Var(Z_t)&=Var(\rho^*Z_{t-1}+\eta_t) \notag \\
+&=\rho^{*2}Var(Z_{t-1})+Var(\eta_t)+2cov(\rho^*Z_{t-1}, \eta_t) \notag \\
+&=\rho^{*2}Var(Z_{t-1})+\sigma_{\eta} ^2 \notag \\
+\Rightarrow Var(Z_t)&=\frac{\sigma_{\eta} ^2}{1-\rho^{*2}}=\sigma_{z} ^2 \notag 
 \end{align}
 $$
 
@@ -149,14 +144,14 @@ $$
 3. 공분산<br>
 $$
 \begin{align}
-Cov(Z_t, Z_{t-1})&=E(Z_t Z_{t-1})=\rho^*E(Z_{t-1} ^2)+E(\eta_t Z_{t-1}) \\
-&=\rho^* \sigma_z ^2 \\
-\\
-Cov(Z_t, Z_{t-2})&=E(Z_t Z_{t-2})=\rho^*E(Z_{t-1} E_{t-2})+E(\eta_t Z_{t-2}) \\
-&=\rho^*E(Z_{t-2} ^2)+E(\eta_{t-1} Z_{t-2}) \\
-&=\rho^{*2} \sigma_z ^2 \\
-\vdots \\
-Cov(Z_t, Z_{t-k})&=\rho^{*k} \sigma_z ^2 \\
+Cov(Z_t, Z_{t-1})&=E(Z_t Z_{t-1})=\rho^*E(Z_{t-1} ^2)+E(\eta_t Z_{t-1}) \notag \\
+&=\rho^* \sigma_z ^2 \notag \\
+\notag \\
+Cov(Z_t, Z_{t-2})&=E(Z_t Z_{t-2})=\rho^*E(Z_{t-1} E_{t-2})+E(\eta_t Z_{t-2}) \notag \\
+&=\rho^*E(Z_{t-2} ^2)+E(\eta_{t-1} Z_{t-2}) \notag \\
+&=\rho^{*2} \sigma_z ^2 \notag \\
+\vdots \notag \\
+Cov(Z_t, Z_{t-k})&=\rho^{*k} \sigma_z ^2 \notag \\
 \end{align}
 $$
 
@@ -173,12 +168,12 @@ Classical assumption에서의 [자기상관성 부재 조건](/posts/005-계량�
 1. 불편성<br>
 $$
 \begin{align}
-E\left[\hat{\beta }\right]&=E\left[\left(X'X\right)^{-1}X'Y\right] \\
-&=E\left[\left(X'X\right)^{-1}X'\left(X\beta +\epsilon \right)\right] \\
-&=E\left[\left(X'X\right)^{-1}X'X\beta +\left(X'X\right)^{-1}X'\epsilon \right] \\
-&=E\left[\beta +\left(X'X\right)^{-1}X'\epsilon \right]\\ 
-&=\beta +\left(X'X\right)^{-1}X'E\left[\epsilon \right] \\
-&=\beta \\
+E\left[\hat{\beta }\right]&=E\left[\left(X'X\right)^{-1}X'Y\right] \notag \\
+&=E\left[\left(X'X\right)^{-1}X'\left(X\beta +\epsilon \right)\right] \notag \\
+&=E\left[\left(X'X\right)^{-1}X'X\beta +\left(X'X\right)^{-1}X'\epsilon \right] \notag \\
+&=E\left[\beta +\left(X'X\right)^{-1}X'\epsilon \right] \notag \\ 
+&=\beta +\left(X'X\right)^{-1}X'E\left[\epsilon \right] \notag \\
+&=\beta \notag \\
 \end{align}
 $$
 
@@ -187,12 +182,12 @@ $$
 2. 분산<br>
 $$
 \begin{align}
-Var\left(\hat{\beta }\right)&=Var\left(\beta +\left(X'X\right)^{-1}X'\epsilon \right)\\ 
-&=Var\left(\beta \right)+Var\left(\left(X'X\right)^{-1}X'\epsilon \right)+2Cov\left(\beta ,\ \left(X'X\right)^{-1}X'\epsilon \right)\\ 
-&=0+Var\left(\left(X'X\right)^{-1}X'\epsilon \right)+0\\ 
-&=\left(X'X\right)^{-1}X'V\left(\epsilon \right)X\left(X'X\right)^{-1} \\
-&\ne \left(X'X\right)^{-1}X'\sigma ^2 I X\left(X'X\right)^{-1}\\ 
-&=\sigma ^2\left(X'X\right)^{-1}
+Var\left(\hat{\beta }\right)&=Var\left(\beta +\left(X'X\right)^{-1}X'\epsilon \right) \notag \\ 
+&=Var\left(\beta \right)+Var\left(\left(X'X\right)^{-1}X'\epsilon \right)+2Cov\left(\beta ,\ \left(X'X\right)^{-1}X'\epsilon \right) \notag \\ 
+&=0+Var\left(\left(X'X\right)^{-1}X'\epsilon \right)+0 \notag \\ 
+&=\left(X'X\right)^{-1}X'V\left(\epsilon \right)X\left(X'X\right)^{-1} \notag \\
+&\ne \left(X'X\right)^{-1}X'\sigma ^2 I X\left(X'X\right)^{-1} \notag \\ 
+&=\sigma ^2\left(X'X\right)^{-1} \notag 
 \end{align}
 $$
 
@@ -216,8 +211,8 @@ $$
 
 $$
 \begin{align}
-H_0 &: \mathrm{No\ serial\ correlation} (\rho^* = 0) \\
-H_1 &: \mathrm{Serial\ correlation} (\rho^* \ne 0) \\
+H_0 &: \mathrm{No\ serial\ correlation} (\rho^* = 0) \notag \\
+H_1 &: \mathrm{Serial\ correlation} (\rho^* \ne 0) \notag \\
 \end{align}
 $$
 
@@ -237,8 +232,8 @@ $$
 
 $$
 \begin{align}
-H_0 &: \mathrm{No\ serial\ correlation} (\rho_1^*=\rho_2^*=\cdots=\rho_p^* = 0) \\
-H_1 &: \sim H_0 \\
+H_0 &: \mathrm{No\ serial\ correlation} (\rho_1^*=\rho_2^*=\cdots=\rho_p^* = 0) \notag \\
+H_1 &: \sim H_0 \notag \\
 \end{align}
 $$
 
@@ -262,8 +257,8 @@ $$
 
 $$
 \begin{align}
-H_0 &: \rho^*=0 \\
-H_1 &: \rho^*>0 \\
+H_0 &: \rho^*=0 \notag \\
+H_1 &: \rho^*>0 \notag \\
 \end{align}
 $$
 
@@ -310,7 +305,7 @@ HAC추정량의 일종인 Newey-West estimator는 아래와 같다.
 
 $$
 \begin{align}
-&\sqrt{T}(\hat{\beta}-\beta^*)=(\frac{1}{T} \sum _{t=1}^{T} X_tX_t')^{-1}\frac{1}{\sqrt{T}}\sum _{t=1}^{T} X_t\epsilon_t \overset{d}{\to} Q^{-1}N(0, V)=N(0, Q^{-1}VQ^{-1})\\
+&\sqrt{T}(\hat{\beta}-\beta^*)=(\frac{1}{T} \sum _{t=1}^{T} X_tX_t')^{-1}\frac{1}{\sqrt{T}}\sum _{t=1}^{T} X_t\epsilon_t \overset{d}{\to} Q^{-1}N(0, V)=N(0, Q^{-1}VQ^{-1}) \notag \\
 \end{align}
 $$
 
@@ -324,8 +319,8 @@ $$V=E(\epsilon_t^2X_tX_t')$$도 알려져 있지 않으니
 
 $$
 \begin{align}
-Var(\frac{1}{\sqrt{T}}\sum _{t=1} ^{T} X_t\epsilon_t) &= \frac{1}{T} Var(\sum _{t=1} ^{T} X_t\epsilon_t) \\
-&=\frac{1}{T} \sum _{t=1} ^{T} Var(X_t\epsilon_t) + \frac{1}{T} \sum _{t=1} ^{T}\sum _{s=1, s\ne t} ^{T} Cov(X_t\epsilon_t, X_s\epsilon_s) \\
+Var(\frac{1}{\sqrt{T}}\sum _{t=1} ^{T} X_t\epsilon_t) &= \frac{1}{T} Var(\sum _{t=1} ^{T} X_t\epsilon_t) \notag \\
+&=\frac{1}{T} \sum _{t=1} ^{T} Var(X_t\epsilon_t) + \frac{1}{T} \sum _{t=1} ^{T}\sum _{s=1, s\ne t} ^{T} Cov(X_t\epsilon_t, X_s\epsilon_s) \notag \\
 \end{align}
 $$
 

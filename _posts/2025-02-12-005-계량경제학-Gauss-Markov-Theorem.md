@@ -12,11 +12,6 @@ math: true
 mermaid: true
 ---
 
-><span style="font-size: 20px;">**!!필독!!** <br>
->수식편집기의 버그로 수식 번호가 모두 매겨져 있는 경우가 있습니다. <br>
->이 경우 **새로고침(F5)**하여 없앤 후 읽어주시길 바랍니다.</span>
-{: .prompt-danger}
-
 <br>
 
 이번에는 Gauss Markov Theorem에 대해서 다룹니다.
@@ -41,7 +36,7 @@ mermaid: true
 
 $$
 \begin{align}
-\hat{Y}=X\hat{\beta}=X(X'X)^{-1}X'Y=P_XY
+\hat{Y}=X\hat{\beta}=X(X'X)^{-1}X'Y=P_XY \notag 
 \end{align}
 $$
 
@@ -58,13 +53,13 @@ $$
 
 $$
 \begin{align}
-&(I-p_X)(I-p_X)=I-P_X-P_X+P_XP_X=I-P_X \\
-e&=Y-\hat{Y}=Y-P_XY=(I-P_X)Y=M_X(X\beta^*+\epsilon)=M_XX\beta^*+M_X\epsilon \\ 
- &=(I-P_X)X\beta^*+M_X\epsilon=X\beta^*-P_XX\beta^*+M_X\epsilon \\ 
- &=X\beta^*-X(X'X)^{-1}X'X\beta^*+M_X\epsilon \\
- &=X\beta^*-X\beta^*+M_X\epsilon \\
- &=M_X\epsilon \\
- &\Rightarrow e=M_X\epsilon \\
+&(I-p_X)(I-p_X)=I-P_X-P_X+P_XP_X=I-P_X \notag \\
+e&=Y-\hat{Y}=Y-P_XY=(I-P_X)Y=M_X(X\beta^*+\epsilon)=M_XX\beta^*+M_X\epsilon \notag \\ 
+ &=(I-P_X)X\beta^*+M_X\epsilon=X\beta^*-P_XX\beta^*+M_X\epsilon \notag \\ 
+ &=X\beta^*-X(X'X)^{-1}X'X\beta^*+M_X\epsilon \notag \\
+ &=X\beta^*-X\beta^*+M_X\epsilon \notag \\
+ &=M_X\epsilon \notag \\
+ &\Rightarrow e=M_X\epsilon \notag \\
 \end{align}
 $$
 
@@ -97,11 +92,11 @@ MSE를 수식으로 작성하면 아래와 같다.
 
 $$
 \begin{align}
-MSE({\hat{\beta}})&=E[(\hat{\beta }-\beta )^2]=E[(\hat{\beta }-\overline {\hat{\beta }}+\overline {\hat{\beta }}-\beta )^2]\\ 
-&=E\left[\left(\hat{\beta }-\overline {\hat{\beta }}\right)^2+\left(\overline {\hat{\beta }}-\beta \right)^2+2\left(\hat{\beta }-\overline {\hat{\beta }}\right)\left(\overline {\hat{\beta }}-\beta \right)\right]\\ 
-&=E\left[\left(\hat{\beta }-\overline {\hat{\beta }}\right)^2\right]+E\left[\left(\overline {\hat{\beta }}-\beta \right)^2\right]+E\left[2\left(\hat{\beta }-\overline {\hat{\beta }}\right)\left(\overline {\hat{\beta }}-\beta \right)\right]\\ 
-&=E\left[\left(\hat{\beta }-\overline {\hat{\beta }}\right)^2\right]+\left(\overline {\hat{\beta }}-\beta \right)^2+2\left(\overline {\hat{\beta }}-\beta \right)E\left[\left(\hat{\beta }-\overline {\hat{\beta }}\right)\right]\\ 
-&=V\left(\hat{\beta }\right)+\left(\overline {\hat{\beta }}-\beta \right)^2=V\left(\hat{\beta }\right)+\left(bias\right)^2
+MSE({\hat{\beta}})&=E[(\hat{\beta }-\beta )^2]=E[(\hat{\beta }-\overline {\hat{\beta }}+\overline {\hat{\beta }}-\beta )^2] \notag \\ 
+&=E\left[\left(\hat{\beta }-\overline {\hat{\beta }}\right)^2+\left(\overline {\hat{\beta }}-\beta \right)^2+2\left(\hat{\beta }-\overline {\hat{\beta }}\right)\left(\overline {\hat{\beta }}-\beta \right)\right] \notag \\ 
+&=E\left[\left(\hat{\beta }-\overline {\hat{\beta }}\right)^2\right]+E\left[\left(\overline {\hat{\beta }}-\beta \right)^2\right]+E\left[2\left(\hat{\beta }-\overline {\hat{\beta }}\right)\left(\overline {\hat{\beta }}-\beta \right)\right] \notag \\ 
+&=E\left[\left(\hat{\beta }-\overline {\hat{\beta }}\right)^2\right]+\left(\overline {\hat{\beta }}-\beta \right)^2+2\left(\overline {\hat{\beta }}-\beta \right)E\left[\left(\hat{\beta }-\overline {\hat{\beta }}\right)\right] \notag \\ 
+&=V\left(\hat{\beta }\right)+\left(\overline {\hat{\beta }}-\beta \right)^2=V\left(\hat{\beta }\right)+\left(bias\right)^2 \notag 
 \end{align}
 $$
 
@@ -141,12 +136,12 @@ $$
 
 $$
 \begin{align}
-E\left[\hat{\beta }\right]&=E\left[\left(X'X\right)^{-1}X'Y\right] \\
-&=E\left[\left(X'X\right)^{-1}X'\left(X\beta +\epsilon \right)\right] \\
-&=E\left[\left(X'X\right)^{-1}X'X\beta +\left(X'X\right)^{-1}X'\epsilon \right] \\
-&=E\left[\beta +\left(X'X\right)^{-1}X'\epsilon \right]\\ 
-&=\beta +\left(X'X\right)^{-1}X'E\left[\epsilon \right]\ \ \ by\ A0 \\
-&=\beta \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ by\ A1 \\
+E\left[\hat{\beta }\right]&=E\left[\left(X'X\right)^{-1}X'Y\right] \notag \\
+&=E\left[\left(X'X\right)^{-1}X'\left(X\beta +\epsilon \right)\right] \notag \\
+&=E\left[\left(X'X\right)^{-1}X'X\beta +\left(X'X\right)^{-1}X'\epsilon \right] \notag \\
+&=E\left[\beta +\left(X'X\right)^{-1}X'\epsilon \right] \notag \\ 
+&=\beta +\left(X'X\right)^{-1}X'E\left[\epsilon \right]\ \ \ by\ A0 \notag \\
+&=\beta \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ by\ A1 \notag \\
 \end{align}
 $$
 
@@ -154,12 +149,12 @@ $$
 
 $$
 \begin{align}
-Var\left(\hat{\beta }\right)&=Var\left(\beta +\left(X'X\right)^{-1}X'\epsilon \right)\\ 
-&=Var\left(\beta \right)+Var\left(\left(X'X\right)^{-1}X'\epsilon \right)+2Cov\left(\beta ,\ \left(X'X\right)^{-1}X'\epsilon \right)\\ 
-&=0+Var\left(\left(X'X\right)^{-1}X'\epsilon \right)+0\\ 
-&=\left(X'X\right)^{-1}X'V\left(\epsilon \right)X\left(X'X\right)^{-1}\ \ by\ A2,\ A3\\ 
-&=\left(X'X\right)^{-1}X'\sigma ^2X\left(X'X\right)^{-1}\\ 
-&=\sigma ^2\left(X'X\right)^{-1}
+Var\left(\hat{\beta }\right)&=Var\left(\beta +\left(X'X\right)^{-1}X'\epsilon \right) \notag \\ 
+&=Var\left(\beta \right)+Var\left(\left(X'X\right)^{-1}X'\epsilon \right)+2Cov\left(\beta ,\ \left(X'X\right)^{-1}X'\epsilon \right) \notag \\ 
+&=0+Var\left(\left(X'X\right)^{-1}X'\epsilon \right)+0 \notag \\ 
+&=\left(X'X\right)^{-1}X'V\left(\epsilon \right)X\left(X'X\right)^{-1}\ \ by\ A2,\ A3 \notag \\ 
+&=\left(X'X\right)^{-1}X'\sigma ^2X\left(X'X\right)^{-1} \notag \\ 
+&=\sigma ^2\left(X'X\right)^{-1} \notag 
 \end{align}
 $$
 
@@ -177,17 +172,17 @@ $$
 
 $$
 \begin{align}
-&Var\left(\tilde{\beta }\right)=Var\left(CY\right)=CVar\left(Y\right)C'=\sigma ^2CC'\\ 
-&Let\ A=C-\left(X'X\right)^{-1}X',\\ 
-&C=C-\left(X'X\right)^{-1}X'+\left(X'X\right)^{-1}X'=A+\left(X'X\right)^{-1}X'\\ 
-\\ 
-\Rightarrow \sigma ^2CC'&=\sigma ^2\left(A+\left(X'X\right)^{-1}X'\right)\left(A+\left(X'X\right)^{-1}X'\right)'\\ 
-&=\sigma ^2\left(AA'+AX\left(X'X\right)^{-1}+\left(X'X\right)^{-1}X'A'+\left(X'X\right)^{-1}\right)\\ 
-\\ 
-&\beta =E\left(\tilde{\beta }\right)=E\left(CY\right)=E\left(CX\beta +C\epsilon \right)=CX\beta +0로부터\\ 
-&CX=I,\ \ \ AX=CX-\left(X'X\right)^{-1}X'X=0\\ 
-&\Rightarrow \sigma ^2CC'=\sigma ^2\left(AA'+0+0+\left(X'X\right)^{-1}\right)\\ 
-&\Rightarrow Var\left(\tilde{\beta }\right)-Var\left(\hat{\beta }\right)=\sigma ^2AA'\\ 
+&Var\left(\tilde{\beta }\right)=Var\left(CY\right)=CVar\left(Y\right)C'=\sigma ^2CC' \notag \\ 
+&Let\ A=C-\left(X'X\right)^{-1}X', \notag \\ 
+&C=C-\left(X'X\right)^{-1}X'+\left(X'X\right)^{-1}X'=A+\left(X'X\right)^{-1}X' \notag \\ 
+\notag \\ 
+\Rightarrow \sigma ^2CC'&=\sigma ^2\left(A+\left(X'X\right)^{-1}X'\right)\left(A+\left(X'X\right)^{-1}X'\right)' \notag \\ 
+&=\sigma ^2\left(AA'+AX\left(X'X\right)^{-1}+\left(X'X\right)^{-1}X'A'+\left(X'X\right)^{-1}\right) \notag \\ 
+\notag \\ 
+&\beta =E\left(\tilde{\beta }\right)=E\left(CY\right)=E\left(CX\beta +C\epsilon \right)=CX\beta +0로부터 \notag \\ 
+&CX=I,\ \ \ AX=CX-\left(X'X\right)^{-1}X'X=0 \notag \\ 
+&\Rightarrow \sigma ^2CC'=\sigma ^2\left(AA'+0+0+\left(X'X\right)^{-1}\right) \notag \\ 
+&\Rightarrow Var\left(\tilde{\beta }\right)-Var\left(\hat{\beta }\right)=\sigma ^2AA'\notag \\ 
 \end{align}
 $$
 
