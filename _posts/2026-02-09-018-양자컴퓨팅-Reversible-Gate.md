@@ -1,10 +1,10 @@
 ---
-title: 018-양자 컴퓨팅 Quantum Gate
+title: 018-양자 컴퓨팅 Reversible Gate
 date: 2026-02-09 00:00:00 +0900
-categories: [양자컴퓨팅, Quantum Gate]
-tags: [quantum computing, quantum gate, cnot gate, toffoli gate, fredkin gate, switch gate]
+categories: [양자컴퓨팅, Reversible Gate]
+tags: [quantum computing, reversible gate, cnot gate, toffoli gate, fredkin gate, switch gate]
 author: rachihyeon 
-description: 양자 컴퓨터를 구성하는 양자 게이트에 대해 다룹니다.
+description: 양자 게이트를 다루기에 앞서 가역게이트에 대해 다룹니다.
 # comments: 
 # media_subpath: 
 # pin: true
@@ -18,7 +18,7 @@ mermaid: true
 
 [지난 포스트](/posts/016-양자컴퓨팅-NS-Spin-Experiment/)에서 양자의 관측에 대해서 수식으로 어떻게 해석하는 지에 대해서 다뤘다. 
 
-이번 포스트에서는 고전적인 컴퓨터가 논리 게이트로 구성된 듯이 양자 컴퓨터는 양자 게이트로 구성됨을 알고 어떤 종류가 있는지에 대해서 알아봅니다.
+이번 포스트에서는 고전적인 컴퓨터가 가진 한계인 정보 손실을 극복하는 가역 게이트에 대해 알아본다.
 
 <br>
 <br>
