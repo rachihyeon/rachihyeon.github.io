@@ -152,7 +152,7 @@ CNOT게이트는 쉽게 말해 $$x$$가 $$0$$이면 게이트의 결과가 $$y$$
 
 <br>
 
-아까 [Fredkin gate](/posts/018-양자컴퓨팅-Quantum-Gate/#1-2-fredkin-gate프레드킨-게이트)는 CSWAP게이트로 불린다고 했었다.
+아까 [Fredkin gate](/posts/018-양자컴퓨팅-Reversible-Gate/#1-2-fredkin-gate프레드킨-게이트)는 CSWAP게이트로 불린다고 했었다.
 
 위 이미지의 switch게이트를 적절히 결합하여 프레드킨 게이트를 구현할 수도 있다. 아래 그림이 그 회로도이다.
 
