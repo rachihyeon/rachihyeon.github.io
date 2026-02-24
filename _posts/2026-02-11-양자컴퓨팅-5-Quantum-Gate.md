@@ -2,7 +2,7 @@
 title: 양자 컴퓨팅 5 - Qubit, Quantum Gate
 date: 2026-02-11 12:00:00 +0900
 categories: [양자컴퓨팅, Quantum Gate]
-tags: [quantum computing, quantum gate, qubit, ]
+tags: [quantum computing, quantum gate, qubit, superposition]
 author: rachihyeon 
 description: 양자 컴퓨터를 구성하는 정보 단위인 큐비트와 양자 게이트에 대해 다룹니다.
 # comments: 
