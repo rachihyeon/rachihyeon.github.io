@@ -1,5 +1,5 @@
 ---
-title: 009-계량경제학 다중공선성(Multicollinearity)
+title: 계량경제학 9 - 다중공선성(Multicollinearity)
 date: 2025-02-17 21:00:00 +0900
 categories: [계량경제학, Multicollinearity]
 tags: [econometric, multicollinearity, correlogram, vif, 다중공선성, 상관도표]

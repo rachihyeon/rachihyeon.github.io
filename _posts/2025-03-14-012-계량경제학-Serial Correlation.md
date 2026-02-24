@@ -1,5 +1,5 @@
 ---
-title: 012-계량경제학 자기상관성(Serial Correlation)
+title: 계량경제학 12 - 자기상관성(Serial Correlation)
 date: 2025-03-29 01:00:00 +0900
 categories: [계량경제학, Serial Correlation]
 tags: [econometric, serial correlation, stationary, auto correlation, ar, breusch-godfrey test, durbin-watson test, hac, 자기상관성, 정상성, 브로이슈-갓프리 검정, 더빈-왓슨 검정, ]

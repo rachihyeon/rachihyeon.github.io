@@ -1,5 +1,5 @@
 ---
-title: 018-양자 컴퓨팅 Reversible Gate
+title: 양자 컴퓨팅 4 - Reversible Gate
 date: 2026-02-09 00:00:00 +0900
 categories: [양자컴퓨팅, Reversible Gate]
 tags: [quantum computing, reversible gate, cnot gate, toffoli gate, fredkin gate, switch gate]

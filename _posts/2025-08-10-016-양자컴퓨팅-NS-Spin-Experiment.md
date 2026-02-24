@@ -1,5 +1,5 @@
 ---
-title: 016-양자 컴퓨팅 N/S Spin Experiment
+title: 양자 컴퓨팅 2 - N/S Spin Experiment
 date: 2025-08-10 22:00:00 +0900
 categories: [양자컴퓨팅, N/S Spin Experiment]
 tags: [quantum computing, stern–gerlach experiment, polarization of light, postulate of quantum mechanics, 슈테른-게를라흐 실험, 편광판 실험, 양자역학의 공리]

@@ -1,5 +1,5 @@
 ---
-title: 005-계량경제학 Gauss Markov Theorem
+title: 계량경제학 5 - Gauss Markov Theorem
 date: 2025-02-12 17:06:00 +0900
 categories: [계량경제학, Gauss Markov Theorem]
 tags: [econometric, gauss markov theorem, classical assumption, blue, 가우스 마르코프 정리, 불편 추정량, 일치 추정량, 유효 추정량]

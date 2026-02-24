@@ -1,5 +1,5 @@
 ---
-title: 017-양자 컴퓨팅 N/S Spin Experiment Exercises
+title: 양자 컴퓨팅 3 - N/S Spin Experiment Exercises
 date: 2025-08-29 00:00:00 +0900
 categories: [양자컴퓨팅, N/S Spin Experiment Exercise]
 tags: [quantum computing, stern–gerlach experiment, 슈테른-게를라흐 실험, quantum state, 양자 상태, pure state, 순수 상태, mixed state, 혼합 상태, observation]
