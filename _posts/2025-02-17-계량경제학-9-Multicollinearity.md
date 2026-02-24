@@ -22,7 +22,7 @@ mermaid: true
 하지만, 실제 세계에서는 그런 가정이 깨지기 매우 쉽다. <br>
 가령 아파트의 가격을 예측하는 모델을 세운다고 가정했을 때, 설명변수로는 주변 상가의 가치, 학교의 수 등이 있을 수 있는데, 주변 상가의 가치와 학교의 수 간의 상관관계가 없다고 확신할 수 없기 때문에 다중공선성을 확인해봐야 하는 것이다.
 
-물론, 회귀분석을 진행 한 뒤 [아래에서 다룰 판단방법](/posts/009-계량경제학-Multicollinearity/#2-vifvariance-inflation-factor)으로 의심이 드면 처지하면 된다.
+물론, 회귀분석을 진행 한 뒤 [아래에서 다룰 판단방법](/posts/계량경제학-9-Multicollinearity/#2-vifvariance-inflation-factor)으로 의심이 드면 처지하면 된다.
 
 <br>
 <br>
