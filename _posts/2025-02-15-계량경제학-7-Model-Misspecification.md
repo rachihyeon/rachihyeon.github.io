@@ -20,7 +20,7 @@ mermaid: true
 
 ## 0. Prerequisite
 
-우선 [**Regression**](/posts/004-계량경제학-Regression/)과, [**OLS estimator**](/posts/005-계량경제학-Gauss-Markov-Theorem/)에 대해서 보고 오시는 것을 권장드립니다.
+우선 [**Regression**](/posts/계량경제학-4-Regression/)과, [**OLS estimator**](/posts/계량경제학-5-Gauss-Markov-Theorem/)에 대해서 보고 오시는 것을 권장드립니다.
 
 <br>
 <br>
@@ -168,7 +168,7 @@ $$
 
 ### 3-1. Adjusted R-square
 
-조정된 결정계수는 [Regression](/posts/004-계량경제학-Regression/#4-결정-계수-r2)포스트에서 확인하시기 바랍니다.
+조정된 결정계수는 [Regression](/posts/계량경제학-4-Regression/#4-결정-계수-r2)포스트에서 확인하시기 바랍니다.
 
 조정된 결정계수는 중요한 설명변수가 추가됐을 때 값이 커진다.
 

@@ -16,7 +16,7 @@ mermaid: true
 
 ## 0. Introduction
 
-[지난 포스트](/posts/017-양자컴퓨팅-NS-Spin-Experiment-exercises/)에서 양자의 관측에 대해서 수식으로 어떻게 해석하는 지에 대해서 다뤘다. 
+[지난 포스트](/posts/양자컴퓨팅-3-NS-Spin-Experiment-exercises/)에서 양자의 관측에 대해서 수식으로 어떻게 해석하는 지에 대해서 다뤘다. 
 
 이번 포스트에서는 고전적인 컴퓨터가 가진 한계인 정보 손실을 극복하는 가역 게이트에 대해 알아본다.
 
@@ -152,7 +152,7 @@ CNOT게이트는 쉽게 말해 $$x$$가 $$0$$이면 게이트의 결과가 $$y$$
 
 <br>
 
-아까 [Fredkin gate](/posts/018-양자컴퓨팅-Reversible-Gate/#1-2-fredkin-gate프레드킨-게이트)는 CSWAP게이트로 불린다고 했었다.
+아까 [Fredkin gate](/posts/양자컴퓨팅-4-Reversible-Gate/#1-2-fredkin-gate프레드킨-게이트)는 CSWAP게이트로 불린다고 했었다.
 
 위 이미지의 switch게이트를 적절히 결합하여 프레드킨 게이트를 구현할 수도 있다. 아래 그림이 그 회로도이다.
 

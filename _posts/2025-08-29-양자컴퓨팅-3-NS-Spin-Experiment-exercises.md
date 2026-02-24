@@ -16,7 +16,7 @@ mermaid: true
 
 ## 0. Introduction
 
-이번 포스트에서는 [지난 포스트](/posts/016-양자컴퓨팅-NS-Spin-Experiment/)에서 다뤘던 슈테른 게를라흐 실험의 결과를 수식으로 해석해본다.
+이번 포스트에서는 [지난 포스트](/posts/양자컴퓨팅-2-NS-Spin-Experiment/)에서 다뤘던 슈테른 게를라흐 실험의 결과를 수식으로 해석해본다.
 
 크게 아래 두 가지 내용을 다룰 예정이다.
 1. 양자 상태를 어떻게 정의하고 해석하는지
@@ -319,7 +319,7 @@ $$투과비율 = p_2^2\cos ^2\theta \sin ^2\theta$$
 
 ## 5. 부록
 
-아까 [양자 상태의 관측 파트](/posts/017-양자컴퓨팅-NS-Spin-Experiment-exercises/#2-양자-상태의-관측observation)에서 
+아까 [양자 상태의 관측 파트](/posts/양자컴퓨팅-3-NS-Spin-Experiment-exercises/#2-양자-상태의-관측observation)에서 
 $$
 \begin{pmatrix}
 c_1 \\

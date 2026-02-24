@@ -93,7 +93,7 @@ $$
 
 $$\rho_k=\frac{Cov(X_t, X_{t+k})}{Cov(X_t, X_t)}$$
 
-라고 써 볼 수 있다. 이때 k는 시간간격이다. ([왜 이렇게 표현 가능한지](/posts/012-계량경제학-Serial-Correlation/#2-1-ar-model)는 밑에서 알아보겠다.)
+라고 써 볼 수 있다. 이때 k는 시간간격이다. ([왜 이렇게 표현 가능한지](/posts/계량경제학-12-Serial-Correlation/#2-1-ar-model)는 밑에서 알아보겠다.)
 
 그럼 이 영향이 오래 가는지 짧게 가는지도 다를테니 아래 그림을 한 번 봐보자. (x축은 시간, y축은 자기상관계수이다.)
 
@@ -115,7 +115,7 @@ $$
 Z_t=\rho^*Z_{t-1}+\eta_t
 $$
 
-이 모델을 세울 때 몇 가지 조건이 필요한데 위에서 언급한 [정상성](/posts/012-계량경제학-Serial-Correlation/#1-정상성stationary)조건이다. (위 모델을 구체적으로 AR(1)모델이라고 한다.)
+이 모델을 세울 때 몇 가지 조건이 필요한데 위에서 언급한 [정상성](/posts/계량경제학-12-Serial-Correlation/#1-정상성stationary)조건이다. (위 모델을 구체적으로 AR(1)모델이라고 한다.)
 >1. 임의 시점의 $$t, s$$에 대해서, $$E(Z_t)=E(Z_s)$$이다.(유한 기댓값)
 >2. 임의 시점의 $$t, s$$에 대해서, $$V(Z_t)=V(Z_s)$$이다.(유한 분산)
 >3. $$\eta_t$$는 예측불가능 항, $$E(\eta_t)=0$$.
@@ -163,7 +163,7 @@ $$
 
 ## 3. 자기 상관성 제거
 
-Classical assumption에서의 [자기상관성 부재 조건](/posts/005-계량경제학-Gauss-Markov-Theorem/#2-1-classical-assumption)이 깨지면 $$E(\epsilon_t ^2)=\sigma_t ^2 \ne \sigma^2$$이다.
+Classical assumption에서의 [자기상관성 부재 조건](/posts/계량경제학-5-Gauss-Markov-Theorem/#2-1-classical-assumption)이 깨지면 $$E(\epsilon_t ^2)=\sigma_t ^2 \ne \sigma^2$$이다.
 
 1. 불편성<br>
 $$
@@ -295,13 +295,13 @@ $$\Rightarrow d \rightarrow 2(1-\rho)$$
 
 ## 4. HAC(Heteroskedasticity and Autocorrelation Consistent)
 
-[지난 포스트](/posts/011-계량경제학-Heteroskedasticity/)에서는 등분산성 검정에 대해서 다뤘고 이번 포스트에서는 자기상관성에 대해서 다뤘는데 결국에는 오차항의 분산에 문제가 있다는 공통점이 있다. 그렇다면 둘을 따로 검정하지 않고 동시에 검정해낼 수 있는 방법이 있지 않을까 생각해볼 만 하다.
+[지난 포스트](/posts/계량경제학-11-Heteroskedasticity/)에서는 등분산성 검정에 대해서 다뤘고 이번 포스트에서는 자기상관성에 대해서 다뤘는데 결국에는 오차항의 분산에 문제가 있다는 공통점이 있다. 그렇다면 둘을 따로 검정하지 않고 동시에 검정해낼 수 있는 방법이 있지 않을까 생각해볼 만 하다.
 
 그래서 여기서는 이분산성과 자기상관성을 동시에 검정할 수 있는 공분산 행렬의 추정량을 하나 소개한다.
 
 HAC추정량의 일종인 Newey-West estimator는 아래와 같다.
 
-[분포근사](/posts/010-계량경제학-사건과-확률/#3-2-분포-근사)로부터,
+[분포근사](/posts/계량경제학-10-사건과-확률/)로부터,
 
 $$
 \begin{align}
