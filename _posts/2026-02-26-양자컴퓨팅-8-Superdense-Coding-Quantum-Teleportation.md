@@ -126,8 +126,8 @@ $$
 <br>
 $$
 \begin{align}
-&H_{1}(|\textcolor{red}{0} >\otimes (\frac{a}{\sqrt{2}}|00> + \frac{a}{\sqrt{2}}|11>) + |\textcolor{red}{1} >\otimes (\frac{b}{\sqrt{2}}|10> + \frac{b}{\sqrt{2}}|01>)) \\
-&= (\frac{1}{\sqrt{2}}|0> + \frac{1}{\sqrt{2}}|1>)\otimes ((\frac{a}{\sqrt{2}}|00> + \frac{a}{\sqrt{2}}|11>)) + (\frac{1}{\sqrt{2}}|0> - \frac{1}{\sqrt{2}}|1>)\otimes (\frac{b}{\sqrt{2}}|10> + \frac{b}{\sqrt{2}}|01>)) \\
+&H_{1}(|\textcolor{red}{0} >\otimes (\frac{a}{\sqrt{2}}|00> + \frac{a}{\sqrt{2}}|11>) + |\textcolor{red}{1} >\otimes (\frac{b}{\sqrt{2}}|10> + \frac{b}{\sqrt{2}}|01>)) \notag \\
+&= (\frac{1}{\sqrt{2}}|0> + \frac{1}{\sqrt{2}}|1>)\otimes ((\frac{a}{\sqrt{2}}|00> + \frac{a}{\sqrt{2}}|11>)) + (\frac{1}{\sqrt{2}}|0> - \frac{1}{\sqrt{2}}|1>)\otimes (\frac{b}{\sqrt{2}}|10> + \frac{b}{\sqrt{2}}|01>)) \notag \\
 \end{align}
 $$
 
