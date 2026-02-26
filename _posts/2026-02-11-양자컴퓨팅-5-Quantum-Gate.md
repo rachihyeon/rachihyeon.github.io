@@ -223,9 +223,9 @@ H게이트는 기저상태인 $$|0>$$, $$|1>$$를 중첩상태로 변환한다.
 $$
 \begin{align}
 
-&H|0> = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 & 1 \\ 1 & -1 \\ \end{pmatrix} \begin{pmatrix} 1 \\ 0 \\ \end{pmatrix} = \frac{|0> + (-1)^0 |1>}{\sqrt{2}} = \frac{|0> + |1>}{2} = |+> \notag \\
+&H|0> = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 & 1 \\ 1 & -1 \\ \end{pmatrix} \begin{pmatrix} 1 \\ 0 \\ \end{pmatrix} = \frac{|0> + (-1)^0 |1>}{\sqrt{2}} = \frac{|0> + |1>}{\sqrt{2}} = |+> \notag \\
 
-&H|1> = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 & 1 \\ 1 & -1 \\ \end{pmatrix} \begin{pmatrix} 0 \\ 1 \\ \end{pmatrix} = \frac{|0> + (-1)^1 |1>}{\sqrt{2}} = \frac{|0> - |1>}{2} = |-> \notag \\
+&H|1> = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 & 1 \\ 1 & -1 \\ \end{pmatrix} \begin{pmatrix} 0 \\ 1 \\ \end{pmatrix} = \frac{|0> + (-1)^1 |1>}{\sqrt{2}} = \frac{|0> - |1>}{\sqrt{2}} = |-> \notag \\
 
 \end{align}
 $$
