@@ -124,8 +124,9 @@
 
   {% include metadata-hook.html %}
 
-
-  <!-- Google adsense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6796919304703473"
-     crossorigin="anonymous"></script>
+  {% if page.layout == 'post' %}
+    <!-- Google adsense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6796919304703473"
+      crossorigin="anonymous"></script>
+  {% endif %}
 </head>
