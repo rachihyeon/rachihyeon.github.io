@@ -1,7 +1,7 @@
 ---
 title: 양자 컴퓨팅 4 - Reversible Gate
 date: 2026-02-09 00:00:00 +0900
-categories: [양자컴퓨팅, Reversible Gate]
+categories: [컴퓨터공학, 양자 컴퓨팅]
 tags: [quantum computing, reversible gate, cnot gate, toffoli gate, fredkin gate, switch gate]
 author: rachihyeon 
 description: 양자 게이트를 다루기에 앞서 가역게이트에 대해 다룹니다.

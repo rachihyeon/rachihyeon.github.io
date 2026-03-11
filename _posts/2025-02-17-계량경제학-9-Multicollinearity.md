@@ -1,7 +1,7 @@
 ---
 title: 계량경제학 9 - 다중공선성(Multicollinearity)
 date: 2025-02-17 21:00:00 +0900
-categories: [계량경제학, Multicollinearity]
+categories: [경제학, 계량경제학]
 tags: [econometric, multicollinearity, correlogram, vif, 다중공선성, 상관도표]
 author: rachihyeon 
 description: 회귀모델에서 다중공선성이 발생하면 어떤 문제가 발생하는지, 어떻게 판단하는지에 대해 다룹니다.

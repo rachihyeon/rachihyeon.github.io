@@ -1,7 +1,7 @@
 ---
 title: 양자 컴퓨팅 6 - Entanglements
 date: 2026-02-24 12:00:00 +0900
-categories: [양자컴퓨팅, Entanglement]
+categories: [컴퓨터공학, 양자 컴퓨팅]
 tags: [quantum computing, entanglement, bell's circuit, superposition, tensor product, hidden variable]
 author: rachihyeon 
 description: 양자 역학에서의 얽힘이란 무엇이고 게이트를 사용하여 얽힌 상태를 만드는 방법을 알아보고 벨의 회로 벨의 실험을 알아본다.

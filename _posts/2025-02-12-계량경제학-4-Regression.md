@@ -1,7 +1,7 @@
 ---
 title: 계량경제학 4 - 회귀 분석(Regression)
 date: 2025-02-12 01:13:00 +0900
-categories: [계량경제학, Regression]
+categories: [경제학, 계량경제학]
 tags: [econometric, regression, 회귀 분석, ols, lsm, lad, r square, error, 오차]
 author: rachihyeon 
 description: 회귀 분석에 대한 포스트 입니다.

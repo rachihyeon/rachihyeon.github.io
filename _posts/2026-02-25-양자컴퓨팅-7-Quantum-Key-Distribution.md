@@ -1,7 +1,7 @@
 ---
 title: 양자 컴퓨팅 7 - Quantum Key Distribution
 date: 2026-02-25 00:00:00 +0900
-categories: [양자컴퓨팅, Key Distribution]
+categories: [컴퓨터공학, 양자 컴퓨팅]
 tags: [quantum computing, key distribution, bb84, ekert protocol, ]
 author: rachihyeon 
 description: 안전한 정보 교환을 위한 양자 키 교환 알고리즘 BB84에 대해서 소개한다.
