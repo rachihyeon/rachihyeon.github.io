@@ -1,7 +1,7 @@
 ---
 title: 양자 컴퓨팅 8 - Superdense Coding and Quantum Teleportation 
 date: 2026-02-26 00:00:00 +0900
-categories: [컴퓨터공학, 양자 컴퓨팅]
+categories: [컴퓨터공학, 양자컴퓨팅]
 tags: [quantum computing, superdense coding, quantum teleportation, ]
 author: rachihyeon 
 description: 양자 얽힘을 이용한 초고밀도 코딩과 양자 순간이동에 대해서 다룹니다.
