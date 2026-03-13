@@ -38,6 +38,7 @@ layout: compress
               {% include_cached update-list.html lang=lang %}
               {% include_cached trending-tags.html lang=lang %}
 
+              {% if layout.name == 'post' %}
               <!--Google Adsense -->
               <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6796919304703473"
                   crossorigin="anonymous"></script>
@@ -52,6 +53,7 @@ layout: compress
                   (adsbygoogle = window.adsbygoogle || []).push({});
               </script>
               <!--Google Adsense end -->
+              {% endif %}
 
             </div>
 
@@ -73,6 +75,7 @@ layout: compress
             {% include_cached footer.html lang=lang %}
 
 
+            {% if layout.name == 'post' %}
             <!--Google Adsense -->
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6796919304703473"
                 crossorigin="anonymous"></script>
@@ -87,6 +90,7 @@ layout: compress
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
             <!--Google Adsense end -->
+            {% endif %}
 
             
           </div>
