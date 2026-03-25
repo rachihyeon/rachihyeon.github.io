@@ -4,7 +4,7 @@ date: 2026-02-09 00:00:00 +0900
 categories: [컴퓨터공학, 양자컴퓨팅]
 tags: [quantum computing, reversible gate, cnot gate, toffoli gate, fredkin gate, switch gate]
 author: rachihyeon 
-description: 양자 게이트를 다루기에 앞서 가역게이트에 대해 다룹니다.
+description: 양자 게이트를 다루기에 앞서 가역게이트란 무엇이고 어떤 종류가 있는지 알아본다.
 # comments: 
 # media_subpath: 
 # pin: true

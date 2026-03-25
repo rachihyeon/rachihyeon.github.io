@@ -4,7 +4,7 @@ date: 2025-08-10 22:00:00 +0900
 categories: [컴퓨터공학, 양자컴퓨팅]
 tags: [quantum computing, stern–gerlach experiment, polarization of light, postulate of quantum mechanics, 슈테른-게를라흐 실험, 편광판 실험, 양자역학의 공리]
 author: rachihyeon 
-description: 양자 역학의 증거가 되는 실험 Stern–Gerlach experiment에 대해 다룹니다.
+description: 양자 역학의 증거가 되는 실험 Stern–Gerlach experiment에 대해 다룬다.
 # comments: 
 # media_subpath: 
 # pin: true

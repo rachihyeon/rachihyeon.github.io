@@ -4,7 +4,7 @@ date: 2025-08-29 00:00:00 +0900
 categories: [컴퓨터공학, 양자컴퓨팅]
 tags: [quantum computing, stern–gerlach experiment, 슈테른-게를라흐 실험, quantum state, 양자 상태, pure state, 순수 상태, mixed state, 혼합 상태, observation]
 author: rachihyeon 
-description: 양자 역학의 증거가 되는 실험 Stern–Gerlach experiment의 결과를 수식으로 이해해봅니다.
+description: 양자 역학의 증거가 되는 실험 Stern–Gerlach experiment의 결과를 정량적으로 해석해본다.
 # comments: 
 # media_subpath: 
 # pin: true
