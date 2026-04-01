@@ -2,7 +2,7 @@
 title: 양자 컴퓨팅 9 - Quantum Error Correction
 date: 2026-02-27 00:00:00 +0900
 categories: [컴퓨터공학, 양자컴퓨팅]
-tags: [quantum computing, error correction, classical error correction, quantum error correction, bit-flip, phase-flip, shor code]
+tags: [quantum computing, quantum error correction]
 author: rachihyeon 
 description: 고전적인 비트 에러 수정 아이디어에서 착안하여 큐비트 에러 수정에 대해서 다룬다.
 # comments: 

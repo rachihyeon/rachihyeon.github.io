@@ -2,7 +2,7 @@
 title: 계량경제학 11 - 이분산성(Heteroskedasticity)
 date: 2025-03-06 22:30:00 +0900
 categories: [경제학, 계량경제학]
-tags: [econometric, 등분산성, 이분산성, homoskedasticity, heteroskedasticity, white noise, pink noise, homoskedasticity, breusch-pagan test, white test, lm test]
+tags: [econometrics, regression]
 author: rachihyeon 
 description: Classical assumption에서 말하는 등분산성(homoskedasticity)의 판단을 어떻게 해야 하는지를 검정방법을 통해 알아본다.
 # comments: 

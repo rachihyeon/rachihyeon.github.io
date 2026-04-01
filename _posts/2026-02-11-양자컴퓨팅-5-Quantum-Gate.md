@@ -2,7 +2,7 @@
 title: 양자 컴퓨팅 5 - Qubit, Quantum Gate
 date: 2026-02-11 12:00:00 +0900
 categories: [컴퓨터공학, 양자컴퓨팅]
-tags: [quantum computing, quantum gate, qubit, superposition]
+tags: [quantum computing, quantum gate]
 author: rachihyeon 
 description: 양자 컴퓨터를 구성하는 정보 단위인 큐비트와 이 큐비트들의 게이트인 양자 게이트에 대해 알아보고 어떤 종류가 있으며 현실세계에 이 양자를 어떻게 유효하게 근사하여 회로를 구성할 수 있는지에 대해서 알아본다.
 # comments: 

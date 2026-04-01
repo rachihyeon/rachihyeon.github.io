@@ -2,7 +2,7 @@
 title: 계량경제학 5 - Gauss Markov Theorem
 date: 2025-02-12 17:06:00 +0900
 categories: [경제학, 계량경제학]
-tags: [econometric, gauss markov theorem, classical assumption, blue, 가우스 마르코프 정리, 불편 추정량, 일치 추정량, 유효 추정량]
+tags: [econometrics, regression]
 author: rachihyeon 
 description: 회귀분석 최적해를 유도하는 Gauss Markov Theorem에 대해 다룬다.
 # comments: 
