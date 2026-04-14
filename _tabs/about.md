@@ -21,4 +21,4 @@ order: 4
 
 - 동국대학교 주전공 컴퓨터공학 / 복수전공 경제학
 - GitHub: [rachihyeon](https://github.com/rachihyeon)
-- E-mail: [fkclgus123@naver.com](fkclgus123@naver.com)
+- E-mail: [fkclgus123@naver.com](mailto:fkclgus123@naver.com)
