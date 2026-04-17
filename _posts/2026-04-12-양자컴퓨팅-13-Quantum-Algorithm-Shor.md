@@ -108,10 +108,10 @@ $$|\phi_{r,b}> := \frac{1}{\sqrt{m}}\sum_{z=0}^{m-1}|zr+b>, \quad b \in {0,1,...
 
 $$
 \begin{align}
-\mathrm{QFT}&_{rm}|\phi_{r,b}> \\
-&= \mathrm{QFT}_{rm}\frac{1}{\sqrt{m}}\sum_{z=0}^{m-1}|zr+b> \\
-&= \frac{1}{\sqrt{mr}}\frac{1}{\sqrt{m}}\sum_{y=0}^{mr-1}\sum_{z=0}^{m-1} e^{2\pi i \cdot \frac{(zr+b)}{mr}\cdot y} |y> \\
-&= \frac{1}{\sqrt{mr}}\frac{1}{\sqrt{m}}\sum_{y=0}^{mr-1} e^{\frac{2\pi}{mr}by} \sum_{z=0}^{m-1} e^{2\pi i \cdot \frac{z}{m}\cdot y} |y> \\
+\mathrm{QFT}&_{rm}|\phi_{r,b}> \notag \\
+&= \mathrm{QFT}_{rm}\frac{1}{\sqrt{m}}\sum_{z=0}^{m-1}|zr+b> \notag \\
+&= \frac{1}{\sqrt{mr}}\frac{1}{\sqrt{m}}\sum_{y=0}^{mr-1}\sum_{z=0}^{m-1} e^{2\pi i \cdot \frac{(zr+b)}{mr}\cdot y} |y> \notag \\
+&= \frac{1}{\sqrt{mr}}\frac{1}{\sqrt{m}}\sum_{y=0}^{mr-1} e^{\frac{2\pi}{mr}by} \sum_{z=0}^{m-1} e^{2\pi i \cdot \frac{z}{m}\cdot y} |y> \notag \\
 \end{align}
 $$
 
@@ -127,9 +127,9 @@ $$\sum_{z=0}^{m-1} e^{2\pi i \cdot \frac{z}{m}\cdot y} |y> = \left\{ \begin{arra
 
 $$
 \begin{align}
-\mathrm{QFT}&_{rm}|\phi_{r,b}> \\
-&= \frac{1}{\sqrt{mr}}\frac{1}{\sqrt{m}}\sum_{y=0,\ y=mk}^{mr-1} e^{\frac{2\pi}{mr}by} m|y> \\
-&= \frac{1}{\sqrt{r}}\sum_{k=0}^{r-1} e^{\frac{2\pi ib}{r}k}|mk> \\
+\mathrm{QFT}&_{rm}|\phi_{r,b}> \notag \\
+&= \frac{1}{\sqrt{mr}}\frac{1}{\sqrt{m}}\sum_{y=0,\ y=mk}^{mr-1} e^{\frac{2\pi}{mr}by} m|y> \notag \\
+&= \frac{1}{\sqrt{r}}\sum_{k=0}^{r-1} e^{\frac{2\pi ib}{r}k}|mk> \notag \\
 \end{align}
 $$
 
