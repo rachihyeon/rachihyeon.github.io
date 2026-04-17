@@ -153,7 +153,7 @@ $$
 <br>
 <br>
 
-### 3. Shor's algorithm with QFT
+## 3. Shor's algorithm with QFT
 
 다시 쇼어 알고리즘으로 돌아와서 쇼어 알고리즘에서 양자 푸리에 변환을 어떻게 적용하는지에 대해서 알아보도록 하자.
 
