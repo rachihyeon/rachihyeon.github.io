@@ -16,7 +16,7 @@ mermaid: true
 
 ## 0. Introduction
 
-[지지난 포스트](/posts/양자컴퓨팅-13-Quantum-Algorithm-Shor/)와 [지난 포스트](/posts/양자컴퓨팅-14-Quantum-Algorithm-Shor_Appendix/)에선는 쇼어 알고리즘에 대해서 자세히 알아봤다.
+[지지난 포스트](/posts/양자컴퓨팅-13-Quantum-Algorithm-Shor/)와 [지난 포스트](/posts/양자컴퓨팅-14-Quantum-Algorithm-Shor_Appendix/)에서는 쇼어 알고리즘에 대해서 자세히 알아봤다.
 <br>
 이번 포스트에서는 쇼어 알고리즘을 이용하여 이산 로그 문제를 해결하는 방법에 대해서 다룬다. 
 
