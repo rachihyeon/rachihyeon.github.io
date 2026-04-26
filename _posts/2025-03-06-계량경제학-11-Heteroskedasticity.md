@@ -4,7 +4,7 @@ date: 2025-03-06 22:30:00 +0900
 categories: [경제학, 계량경제학]
 tags: [econometrics, regression]
 author: rachihyeon 
-description: Classical assumption에서 말하는 등분산성(homoskedasticity)의 판단을 어떻게 해야 하는지를 검정방법을 통해 알아본다.
+description: Classical assumption에서 말하는 등분산성(homoskedasticity) 조건이 깨지게 되면 OLS 추정치는 어떻게 되는지를 알아보고, 이분산성(heteroskedasticity)의 판단을 어떻게 해야 하는지를 Breusch-Pagan Test(LM Test), White test를 통해 알아본다.
 # comments: 
 # media_subpath: 
 # pin: true

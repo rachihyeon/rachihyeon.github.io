@@ -4,7 +4,7 @@ date: 2025-03-29 01:00:00 +0900
 categories: [경제학, 계량경제학]
 tags: [econometrics, time series]
 author: rachihyeon 
-description: 자기상관성이란 무엇이며, Classical assumption에서 자기상관성이 없다는 판단을 어떻게 해야 하는지를 다룬다. 그리고 그에 앞서 시계열 데이터 분석을 간략하게 알아본다.
+description: 시계열 데이터에서 정상성(stationary)란 무엇인지 알아보고, 모델에서 자기상관성(auto correlation)이 존재하면 어떤 현상이 발생하는지 알아보고, 자기상관성을 분석하는 AR모델을 사용하는 검정방법인 Breusch-Godfrey Test와 Durbin-Watson Test으로 Classical assumption에서 자기상관성이 없다는 판단을 어떻게 하는지를 알아본다. 추가적으로 이분산성, 자기상관성에 대한 검정 없이 사용할 수 있는 추정치인 HAC(Heteroskedasticity and Autocorrelation Consistent)을 알아본다.
 # comments: 
 # media_subpath: 
 # pin: true

@@ -4,7 +4,7 @@ date: 2025-02-15 15:10:00 +0900
 categories: [경제학, 계량경제학]
 tags: [econometrics, model specification]
 author: rachihyeon 
-description: 모델을 잘못 설계한 경우에 어떤 문제가 발생하며, 어떻게 해결해야하는지에 대한 방법론을 다룬다.
+description: 모델을 잘못 설계한 경우에 어떤 문제가 발생하는지를 알아보고 이를 판단하는 지표인 조정된 결정 계수, 아카이케 정보 기준(AIC), 베이지안 정보 기준(BIC)에 대해서 다룬다.
 # comments: 
 # media_subpath: 
 # pin: true

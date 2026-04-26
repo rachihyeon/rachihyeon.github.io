@@ -4,7 +4,7 @@ date: 2025-02-12 01:13:00 +0900
 categories: [경제학, 계량경제학]
 tags: [econometrics, regression]
 author: rachihyeon 
-description: 가장 기본적인 분석 방법인 회귀 분석을 다룬다.
+description: 가장 기본적인 분석 방법인 선형 회귀 분석(linear regression)란 무엇이며 어떻게 하는지에 대해서 다루고 결정 계수를 통해 모델의 유효성을 분석하는 방법을 다룬다.
 # comments: 
 # media_subpath: 
 # pin: true
