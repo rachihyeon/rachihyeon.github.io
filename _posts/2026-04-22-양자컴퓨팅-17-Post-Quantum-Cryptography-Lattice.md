@@ -298,7 +298,7 @@ $$
 $$3.$$ CVP$$_\gamma$$(Closest Vector Problem) : 주어진 격자 기저 $$B$$와 벡터 $$\overrightarrow{t}\notin \mathcal{L}(B)$$에 대해서 다음을 만족하는 벡터 $$\overrightarrow{v} \in \mathcal{L}(B)$$를 찾는 문제
 
 $$
-\Vert \overrightarrow{t} - \overrightarrow{v} \Vert \leq \min_{\overrightarrow{x} \in \mathcal{L}(B)} \Vert \overrightarrow{t} - \overrightarrow{x} \Vert
+\Vert \overrightarrow{t} - \overrightarrow{v} \Vert \leq \gamma \min_{\overrightarrow{x} \in \mathcal{L}(B)} \Vert \overrightarrow{t} - \overrightarrow{x} \Vert
 $$
 
 
