@@ -4,7 +4,7 @@ date: 2026-04-12 00:30:00 +0900
 categories: [컴퓨터공학, 양자컴퓨팅]
 tags: [quantum computing, quantum algorithm]
 author: rachihyeon 
-description: 소인수 분해 문제를 양자 컴퓨터를 사용해서 효율적으로 해결하는 알고리즘인 쇼어 알고리즘에 대해서 알아보고 그 내부 알고리즘인 양자 푸리에 변환에 대해서 다룬다.
+description: 소인수 분해 문제를 양자 컴퓨터를 사용해서 효율적으로 해결하는 알고리즘인 쇼어(Shor) 알고리즘에 대해서 알아보고 그 내부 알고리즘인 양자 푸리에 변환(quantum fourier transform)에 대해서 다룬다.
 # comments: 
 # media_subpath: 
 # pin: true

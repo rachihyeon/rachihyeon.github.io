@@ -4,7 +4,7 @@ date: 2026-04-26 02:00:00 +0900
 categories: [컴퓨터공학, 양자컴퓨팅]
 tags: [quantum computing, quantum cryptography]
 author: rachihyeon 
-description: 지난 포스트에 이어 격자 난해 문제를 해결하는 알고리즘인 바바이 알고리즘에 대해서 다루고 격자 난해 문제를 암호 시스템에 어떻게 적용하는지에 대해 다룬다.
+description: 지난 포스트에 이어 격자 난해 문제를 해결하는 알고리즘인 바바이(Babai) 알고리즘에 대해서 다루고 격자 난해 문제를 암호 시스템에 어떻게 적용하는지에 대해 다룬다.
 # comments: 
 # media_subpath: 
 # pin: true

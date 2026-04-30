@@ -4,7 +4,7 @@ date: 2026-02-25 00:00:00 +0900
 categories: [컴퓨터공학, 양자컴퓨팅]
 tags: [quantum computing, quantum cryptography]
 author: rachihyeon 
-description: 안전한 정보 교환을 위한 양자 키 교환 알고리즘 BB84에 대해서 소개한다.
+description: 안전한 정보 교환을 위한 양자 키 교환 알고리즘인 BB84와 E91에 대해서 소개한다.
 # comments: 
 # media_subpath: 
 # pin: true

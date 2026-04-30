@@ -4,7 +4,7 @@ date: 2026-02-09 00:00:00 +0900
 categories: [컴퓨터공학, 양자컴퓨팅]
 tags: [quantum computing, quantum gate]
 author: rachihyeon 
-description: 양자 게이트를 다루기에 앞서 가역게이트란 무엇이고 어떤 종류가 있는지 알아본다.
+description: 양자 게이트를 다루기에 앞서 가역 게이트란 무엇이고 어떤 종류가 있는지 알아본다. 추가로, 전기 회로의 동작을 당구공의 움직임에 비유하는 당구공 컴퓨터(billiard-ball computer)에 대해서 알아본다.
 # comments: 
 # media_subpath: 
 # pin: true

@@ -4,7 +4,7 @@ date: 2025-08-29 00:00:00 +0900
 categories: [컴퓨터공학, 양자컴퓨팅]
 tags: [quantum computing, quantum mechanics]
 author: rachihyeon 
-description: 양자 역학의 증거가 되는 실험 Stern–Gerlach experiment의 결과를 정량적으로 해석해본다.
+description: 양자 역학의 증거가 되는 실험 슈테른-게를라흐 실험(Stern–Gerlach experiment)과 편광판 실험의 결과를 정량적으로 해석해본다.
 # comments: 
 # media_subpath: 
 # pin: true

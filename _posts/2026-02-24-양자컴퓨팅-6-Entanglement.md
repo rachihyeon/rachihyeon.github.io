@@ -4,7 +4,7 @@ date: 2026-02-24 12:00:00 +0900
 categories: [컴퓨터공학, 양자컴퓨팅]
 tags: [quantum computing, entanglement]
 author: rachihyeon 
-description: 양자 역학에서의 얽힘이란 무엇이고 게이트를 사용하여 얽힌 상태를 만드는 방법을 알아보고 벨의 회로 벨의 실험을 알아본다.
+description: 양자 역학에서의 얽힘(entaglement)과 중첩(superposition)이란 각각 무엇이고 게이트를 사용하여 얽힌 상태를 만드는 방법인 벨의 회로를 알아보고 벨의 실험에 대해 알아본다.
 # comments: 
 # media_subpath: 
 # pin: true

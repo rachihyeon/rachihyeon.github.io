@@ -4,7 +4,7 @@ date: 2026-03-20 00:00:00 +0900
 categories: [컴퓨터공학, 양자컴퓨팅]
 tags: [quantum computing, quantum algorithm]
 author: rachihyeon 
-description: 양자 알고리즘이란 무엇인지, 복잡성 분류란 무엇인지를 알아보고 양자 알고리즘 중 하나인 Deutsch알고리즘에 대해서 알아본다.
+description: 양자 알고리즘이란 무엇인지, 복잡성 분류란 무엇인지를 알아보고 양자 알고리즘 중 하나인 도이치(Deutsch)알고리즘에 대해서 알아본다.
 # comments: 
 # media_subpath: 
 # pin: true

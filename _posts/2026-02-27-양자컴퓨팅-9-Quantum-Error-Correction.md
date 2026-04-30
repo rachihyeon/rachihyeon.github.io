@@ -4,7 +4,7 @@ date: 2026-02-27 00:00:00 +0900
 categories: [컴퓨터공학, 양자컴퓨팅]
 tags: [quantum computing, quantum error correction]
 author: rachihyeon 
-description: 고전적인 비트 에러 수정 아이디어에서 착안하여 큐비트 에러 수정에 대해서 다룬다.
+description: 고전적인 비트 에러 수정 아이디어에서 착안하여 큐비트의 비트 플립 오류, 위상 플립 오류를 교정하는 방법을 각각 알아보고 이를 한 번에 처리하는 쇼어 코드(shor code)에 대해서 알아본다.
 # comments: 
 # media_subpath: 
 # pin: true

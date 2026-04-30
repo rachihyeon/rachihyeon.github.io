@@ -4,7 +4,7 @@ date: 2026-04-11 12:00:00 +0900
 categories: [컴퓨터공학, 양자컴퓨팅]
 tags: [quantum computing, quantum algorithm]
 author: rachihyeon 
-description: 양자 알고리즘 중 탐색 알고리즘인 그로버 알고리즘에 대해서 알아본다.
+description: 양자 알고리즘 중 탐색 알고리즘인 그로버(Grover) 알고리즘에 대해서 알아본다.
 # comments: 
 # media_subpath: 
 # pin: true

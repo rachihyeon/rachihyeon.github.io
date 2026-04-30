@@ -4,7 +4,7 @@ date: 2026-03-25 17:00:00 +0900
 categories: [컴퓨터공학, 양자컴퓨팅]
 tags: [quantum computing, quantum algorithm]
 author: rachihyeon 
-description: 양자 알고리즘 중 Simon의 알고리즘에 대해서 알아보고 n큐비트 H게이트 변환을 통해 도이치-조사 알고리즘의 정량적 해석을 다룬다.
+description: 양자 알고리즘 중 사이먼(Simon)의 알고리즘에 대해서 알아보고 n큐비트 H게이트 변환을 통해 도이치-조사 알고리즘의 정량적 해석을 다룬다.
 # comments: 
 # media_subpath: 
 # pin: true
